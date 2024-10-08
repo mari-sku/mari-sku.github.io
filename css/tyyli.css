@@ -1,0 +1,244 @@
+
+/* body {background-image:irl(..kuvat/tausta.jpg);
+/* kommentti */
+body {
+  color:rgb(12, 13, 14);  /*tekstin väri */
+    background-color: rgb(255, 255, 255); /* taustaväri */
+    font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+
+    margin-right: 1.5vw;
+    margin-left: 1.5vw;
+    margin-top: 0.5vw;
+    margin-bottom: 0;
+}
+
+main {
+    padding: 0; /*reunuksen ja sisällön välissä */
+    width: 100%; /* leveys*/
+    /*max-width: 1400px; /*maksimileveys */
+    margin: auto;
+  }
+    
+
+header {
+  position: relative; /* keep positioning context */
+  padding: 10px; 
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+
+}  
+
+
+.mainlogo {
+  width: 15%;
+  height: auto;
+}
+
+#logo {
+  width: 100%; /* logo width */
+  height: auto; /* Maintain aspect ratio */
+  top: 0;
+  left: 0;
+  display: flex;
+  
+   max-width: 250px;
+   text-align: left;
+}
+
+.headertext {
+  width: 70%;
+  height: auto;
+ 
+
+
+}
+
+h1 
+    {font-family: "Bebas Neue", sans-serif;
+      font-weight: 400;
+    font-style: normal;
+    
+    font-size: 4rem;
+    letter-spacing: 3vw;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    /* flex: 1; */ 
+  }
+
+  @media screen and (max-width: 1000px) {
+h1 {
+  font-size: 2.1rem;
+}
+  }
+
+  /* topnav */
+
+  .topnav {
+    width: 15%;
+    height: auto;
+    overflow: hidden;
+    
+
+  }
+  .topnav .icon {
+    display: none;
+    font-size: 30px;
+    margin-right: 2vw;
+    
+    
+  }
+  
+  @media screen and (max-width: 1000px) {
+  .topnav .eka {
+    margin-top: 50px;
+    margin-right: 20px;
+    font-size: 2vmin;
+    
+  }
+}
+@media screen and (max-width: 1000px) {
+  .topnav .toka {
+    margin-right: 20px;
+    font-size: 2vmin;
+  }
+}
+
+  .topnav a:hover {
+    background-color: #9c9dcd;
+    color: black;
+    
+    }
+
+  .topnav a {
+    font-family: "Bebas Neue", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        color: black;
+        font-size: 1.5vw;
+        text-decoration: none;
+        padding: 0.5vw;
+        display: inline;
+  }
+  
+  @media screen and (max-width: 1000px) {
+    .topnav a:not(:last-child) {display: none;}
+    .topnav a.icon {
+      float: right;
+      display: block;
+    }
+  }
+  
+  @media screen and (max-width: 1000px) {
+    .topnav.responsive {position: relative;}
+    .topnav.responsive a.icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+
+    .topnav.responsive a {
+      
+      display: block;
+      text-align: right;
+      
+    }
+  }
+
+  /* h2 */
+
+h2 {
+  font-family: "Condiment", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 3rem;
+    text-align: center;
+    margin-top: 3vw;
+    margin-bottom: 3vw;
+}
+@media (max-width: 800px) {
+  h2 {
+    font-size: 2rem;
+    
+  }
+}
+
+/*leipäteksti*/
+
+p {
+  font-size: 18px;
+  width: 40%;
+  max-width: 1000px;
+  margin: 0 auto; /*center align*/
+text-align: center;
+}
+
+.project-container {
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:center;
+    margin-top: 4%;
+    margin-right: 15%;
+    margin-left: 15%;
+}
+
+  
+  /* Responsive layout - makes a one column layout instead of a two-column layout */
+  @media (max-width: 800px) {
+    .project-container {
+      flex-direction: column;
+    }
+  }
+
+.box {
+
+    border-style: solid;
+    box-sizing: border-box;
+    border-color: black;
+    border-width: 0.15vw;
+    margin: 1vw;
+    width: 100%;
+    min-height: 10vw;  
+}
+
+footer { position:fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  display: inline;
+  padding: 0.3vw;
+  background-color: #9c9dcd;
+}
+
+.emailFooter {
+  display: inline;
+  width: 50%;
+  margin: 10vw;
+
+}
+
+.phoneFooter {
+  display: inline;
+  width: 50%;
+  margin-left: 10vw;
+  
+}
+
+@media screen and (max-width: 1000px) {
+footer {
+  text-align: center;
+  font-size: 70%;
+  padding: 10px;
+  margin-right: 4vw;
+}
+}
