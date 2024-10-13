@@ -236,7 +236,7 @@ footer { position:fixed;
   
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 480px) {
 footer {
   text-align: center;
   font-size: 60%;
