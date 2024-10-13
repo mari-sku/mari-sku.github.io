@@ -198,6 +198,7 @@ text-align: center;
   @media (max-width: 800px) {
     .project-container {
       flex-direction: column;
+      margin-bottom: 50px;
     }
   }
 
