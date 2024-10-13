@@ -240,8 +240,8 @@ footer { position:fixed;
 @media screen and (max-width: 480px) {
 footer {
   text-align: center;
-  font-size: 40%;
-  padding: 1.3px;
+  font-size: 50%;
+  padding: 2px;
   margin-right: 4vw;
 }
 }
