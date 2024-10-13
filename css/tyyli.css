@@ -239,7 +239,7 @@ footer { position:fixed;
 @media screen and (max-width: 480px) {
 footer {
   text-align: center;
-  font-size: 60%;
+  font-size: 40%;
   padding: 1.3px;
   margin-right: 4vw;
 }
